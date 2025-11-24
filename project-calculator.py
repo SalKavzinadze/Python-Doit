@@ -32,5 +32,4 @@ def calculator():
     else:
         print("Invalid operation!")
 
-# ფუნქციის გაშვება
 calculator()
