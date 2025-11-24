@@ -7,7 +7,7 @@ def hangman():
     # შემთხვევითი სიტყვა
     word = random.choice(words)
     guessed_letters = []
-    tries = 6  # შეცდომების მაქსიმალური რაოდენობა
+    tries = 6  
 
     print("Welcome to Hangman!")
     
@@ -44,5 +44,4 @@ def hangman():
     else:
         print("Game Over! The word was:", word)
 
-# თამაშის გაშვება
 hangman()
