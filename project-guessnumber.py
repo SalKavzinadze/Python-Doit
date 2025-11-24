@@ -10,8 +10,8 @@ def guess_the_number():
 
     while attempts < max_attempts:
         guess = input("Enter your guess: ")
+
         
-        # შეამოწმეთ, რომ მომხმარებელმა რიცხვი ჩაწერა
         if not guess.isdigit():
             print("Please enter a valid number.")
             continue
@@ -29,5 +29,4 @@ def guess_the_number():
     else:
         print(f"Sorry, you didn't guess the number. It was {number_to_guess}.")
 
-# თამაშის გაშვება
 guess_the_number()
