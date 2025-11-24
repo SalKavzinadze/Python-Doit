@@ -2,7 +2,7 @@ import random
 
 def hangman():
     # სიტყვების სია
-    words = ["python", "hangman", "programming", "computer", "apple"]
+    words = ["python", "academy", "hangman", "computer", "samsung"]
     
     # შემთხვევითი სიტყვა
     word = random.choice(words)
